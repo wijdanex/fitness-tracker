@@ -9,3 +9,12 @@ extend: {},
 },
 plugins: [],
 }
+module.exports = {
+  theme: {
+    extend: {
+      fontFamily: {
+        changa: ["Changa", "sans-serif"],
+      },
+    },
+  },
+};

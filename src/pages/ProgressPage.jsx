@@ -155,12 +155,12 @@ Here are some exercise recommendations: ${recommendations
        
         <div className="bg-white p-6 rounded-lg shadow">
           <h2 className="text-xl font-semibold text-[#253599] mb-4">
-            Exercise Recommendations
+            Share your progress !
           </h2>
-          {loading && <p className="text-gray-600">Loading recommendations...</p>}
+          
           {err && <p className="text-red-600">{err}</p>}
           {!loading && !err && recommendations.length === 0 && (
-            <p className="text-gray-600">Log some workouts to see recommendations.</p>
+            <p className="text-gray-600">You can share your progress with your closest ones and grow together!</p>
           )}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {recommendations.map((rec) => (

@@ -56,7 +56,7 @@ export default function ExerciseLibraryPage() {
         <h1 className="text-4xl font-extrabold text-[#253599] tracking-wide drop-shadow-md">
           Explore the Exercise Library
         </h1>
-        <p className="text-lg text-gray-700 mt-2 italic">Exercises fetched live from WGER API</p>
+        
       </div>
 
       <div className="max-w-3xl mx-auto mb-8 grid grid-cols-1 md:grid-cols-3 gap-4">
